@@ -1,0 +1,12 @@
+{
+  "name": "logmonitor-mono",
+  "private": true,
+  "workspaces": [
+    "examples/react-app",
+    "packages/logmonitor-js"
+  ],
+  "scripts": {
+    "build": "npm run build -w logmonitor-js",
+    "dev": "npm run dev -w logmonitor-js"
+  }
+}
